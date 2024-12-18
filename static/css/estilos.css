@@ -1,0 +1,154 @@
+/* Estilos generales para el cuerpo y la estructura */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Garantiza que el body ocupe toda la altura de la pantalla */
+}
+
+header {
+  background-color: #1877F2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Contenedor principal */
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.contenedor-contenido {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  padding: 20px;
+  height: calc(100vh - 100px); /* Ajuste dinámico según el header */
+  overflow: hidden;
+}
+
+/* Filtros */
+.contenedor-filtros {
+  flex: 0 0 20%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  gap: 10px;
+  height: 100%;
+}
+
+/* Filtros */
+.contenedor-filtros h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.contenedor-selectores label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.contenedor-selectores select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #F0F8FF;
+}
+
+.contenedor-selectores select:focus {
+  border-color: #1877F2;
+}
+
+#boton-generar-grafico {
+  background-color: #077907;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#boton-generar-grafico:hover {
+  background-color: #228B22;
+}
+
+/* Contenedor del gráfico */
+.contenedor-grafico {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.spinner-cargando {
+  display: none;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsividad */
+@media (max-width: 1024px) {
+  .contenedor-contenido {
+      flex-direction: column;
+  }
+
+  .contenedor-filtros {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .contenedor-grafico {
+      width: 100%;
+  }
+
+  header h1 {
+      font-size: 1.25rem;
+  }
+}

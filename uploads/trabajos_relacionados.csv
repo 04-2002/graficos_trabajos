@@ -1,0 +1,221 @@
+anio,temporada,fuente,zona,area_de_estudio,modelo,cultivo,hectareas
+2017,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método SVM,Maíz grano,1138.31
+2018,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método SVM,Maíz grano,1098.27
+2019,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método SVM,Maíz grano,1238.68
+2017,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método SVM,Maíz grano,10572.43
+2018,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método SVM,Maíz grano,11856.54
+2019,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método SVM,Maíz grano,11763.25
+2017,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método SVM,Maíz grano,3080.31
+2018,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método SVM,Maíz grano,4568.87
+2019,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método SVM,Maíz grano,4675.46
+2017,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método SVM,Sorgo grano,318.12
+2018,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método SVM,Sorgo grano,31.25
+2019,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método SVM,Sorgo grano,57.12
+2017,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método SVM,Sorgo grano,2720.76
+2018,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método SVM,Sorgo grano,112.31
+2019,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método SVM,Sorgo grano,1723.65
+2017,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método SVM,Sorgo grano,190.15
+2018,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método SVM,Sorgo grano,156.32
+2019,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método SVM,Sorgo grano,142.43
+2017,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método SVM,Maíz grano,1422.23
+2018,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método SVM,Maíz grano,1409.32
+2019,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método SVM,Maíz grano,1514.59
+2017,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método SVM,Maíz grano,7820.23
+2018,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método SVM,Maíz grano,8354.53
+2019,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método SVM,Maíz grano,8362.46
+2017,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método SVM,Maíz grano,2245.22
+2018,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método SVM,Maíz grano,1856.00
+2019,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método SVM,Maíz grano,2269.37
+2017,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método SVM,Sorgo grano,348.11
+2018,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método SVM,Sorgo grano,104.99
+2019,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método SVM,Sorgo grano,124.28
+2017,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método SVM,Sorgo grano,4248.01
+2018,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método SVM,Sorgo grano,4060.53
+2019,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método SVM,Sorgo grano,4150.80
+2017,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método SVM,Sorgo grano,365.40
+2018,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método SVM,Sorgo grano,290.86
+2019,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método SVM,Sorgo grano,452.24
+2017,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método Random Forest,Maíz grano,2769.57
+2018,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método Random Forest,Maíz grano,1369.75
+2019,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método Random Forest,Maíz grano,2307.29
+2017,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método Random Forest,Maíz grano,12598.43
+2018,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método Random Forest,Maíz grano,5077.67
+2019,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método Random Forest,Maíz grano,8608.91
+2017,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método Random Forest,Maíz grano,4036.99
+2018,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método Random Forest,Maíz grano,2879.73
+2019,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método Random Forest,Maíz grano,3651.14
+2017,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método Random Forest,Sorgo grano,1127.54
+2018,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método Random Forest,Sorgo grano,577.45
+2019,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método Random Forest,Sorgo grano,1330.62
+2017,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método Random Forest,Sorgo grano,5191.36
+2018,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método Random Forest,Sorgo grano,2661.62
+2019,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método Random Forest,Sorgo grano,4436.02
+2017,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método Random Forest,Sorgo grano,3230.39
+2018,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método Random Forest,Sorgo grano,1664.45
+2019,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método Random Forest,Sorgo grano,3821.04
+2017,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método Random Forest,Maíz grano,2097.25
+2018,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método Random Forest,Maíz grano,1925.99
+2019,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método Random Forest,Maíz grano,2444.86
+2017,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método Random Forest,Maíz grano,6960.48
+2018,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método Random Forest,Maíz grano,5848.83
+2019,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método Random Forest,Maíz grano,9502.74
+2017,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método Random Forest,Maíz grano,3203.48
+2018,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método Random Forest,Maíz grano,3307.66
+2019,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método Random Forest,Maíz grano,4646.64
+2017,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método Random Forest,Sorgo grano,400.71
+2018,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método Random Forest,Sorgo grano,498.32
+2019,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método Random Forest,Sorgo grano,488.26
+2017,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método Random Forest,Sorgo grano,4725.05
+2018,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método Random Forest,Sorgo grano,4291.23
+2019,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método Random Forest,Sorgo grano,3217.59
+2017,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método Random Forest,Sorgo grano,1243.79
+2018,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método Random Forest,Sorgo grano,1555.56
+2019,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método Random Forest,Sorgo grano,1454.98
+2017,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método CART,Maíz grano,7842.29
+2018,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método CART,Maíz grano,8962.11
+2019,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método CART,Maíz grano,5958.21
+2017,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método CART,Maíz grano,52951.22
+2018,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método CART,Maíz grano,52631.68
+2019,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método CART,Maíz grano,39514.52
+2017,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método CART,Maíz grano,21547.47
+2018,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método CART,Maíz grano,25649.19
+2019,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método CART,Maíz grano,15836.97
+2017,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método CART,Sorgo grano,4393.24
+2018,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método CART,Sorgo grano,1710.50
+2019,Primavera-Verano,Honorio,Zona Ríos,Emiliano Zapata,Método CART,Sorgo grano,3524.67
+2017,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método CART,Sorgo grano,32589.65
+2018,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método CART,Sorgo grano,13250.77
+2019,Primavera-Verano,Honorio,Zona Ríos,Balancán,Método CART,Sorgo grano,26606.60
+2017,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método CART,Sorgo grano,13259.81
+2018,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método CART,Sorgo grano,6545.05
+2019,Primavera-Verano,Honorio,Zona Ríos,Tenosique,Método CART,Sorgo grano,13948.97
+2017,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método CART,Maíz grano,5444.09
+2018,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método CART,Maíz grano,4711.87
+2019,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método CART,Maíz grano,5683.84
+2017,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método CART,Maíz grano,24318.22
+2018,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método CART,Maíz grano,27318.82
+2019,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método CART,Maíz grano,29281.72
+2017,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método CART,Maíz grano,12161.45
+2018,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método CART,Maíz grano,13428.54
+2019,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método CART,Maíz grano,13933.62
+2017,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método CART,Sorgo grano,400.71
+2018,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método CART,Sorgo grano,498.32
+2019,Otoño-Invierno,Honorio,Zona Ríos,Emiliano Zapata,Método CART,Sorgo grano,488.26
+2017,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método CART,Sorgo grano,4725.05
+2018,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método CART,Sorgo grano,4291.23
+2019,Otoño-Invierno,Honorio,Zona Ríos,Balancán,Método CART,Sorgo grano,3217.59
+2017,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método CART,Sorgo grano,1243.79
+2018,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método CART,Sorgo grano,1555.56
+2019,Otoño-Invierno,Honorio,Zona Ríos,Tenosique,Método CART,Sorgo grano,1454.98
+2018,Primavera-Verano,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Maíz grano,9524.60
+2019,Primavera-Verano,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Maíz grano,8757.30
+2020,Primavera-Verano,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Maíz grano,10707.00
+2021,Primavera-Verano,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Maíz grano,10901.90
+2022,Primavera-Verano,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Maíz grano,10685.00
+2018,Primavera-Verano,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Sorgo grano,145.60
+2019,Primavera-Verano,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Sorgo grano,1639.80
+2020,Primavera-Verano,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Sorgo grano,76.20
+2021,Primavera-Verano,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Sorgo grano,77.00
+2022,Primavera-Verano,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Sorgo grano,157.00
+2018,Otoño-Invierno,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Maíz grano,6905.40
+2019,Otoño-Invierno,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Maíz grano,6139.90
+2020,Otoño-Invierno,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Maíz grano,6566.20
+2021,Otoño-Invierno,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Maíz grano,6613.40
+2022,Otoño-Invierno,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Maíz grano,7982.00
+2018,Otoño-Invierno,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Sorgo grano,4087.80
+2019,Otoño-Invierno,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Sorgo grano,3864.60
+2020,Otoño-Invierno,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Sorgo grano,3687.50
+2021,Otoño-Invierno,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Sorgo grano,4058.30
+2022,Otoño-Invierno,Lanser,Zona Ríos,Balancán,DeepLabv3-ResNet-34,Sorgo grano,4023.30
+2018,Primavera-Verano,Edgardo,Zona Ríos,Balancán,U-NET,Maíz grano,2491.48
+2019,Primavera-Verano,Edgardo,Zona Ríos,Balancán,U-NET,Maíz grano,612.23
+2020,Primavera-Verano,Edgardo,Zona Ríos,Balancán,U-NET,Maíz grano,550.71
+2021,Primavera-Verano,Edgardo,Zona Ríos,Balancán,U-NET,Maíz grano,655.29
+2022,Primavera-Verano,Edgardo,Zona Ríos,Balancán,U-NET,Maíz grano,886.43
+2018,Primavera-Verano,Edgardo,Zona Ríos,Balancán,U-NET,Sorgo grano,105.17
+2019,Primavera-Verano,Edgardo,Zona Ríos,Balancán,U-NET,Sorgo grano,1468.90
+2020,Primavera-Verano,Edgardo,Zona Ríos,Balancán,U-NET,Sorgo grano,63.55
+2021,Primavera-Verano,Edgardo,Zona Ríos,Balancán,U-NET,Sorgo grano,70.83
+2022,Primavera-Verano,Edgardo,Zona Ríos,Balancán,U-NET,Sorgo grano,69.58
+2018,Otoño-Invierno,Edgardo,Zona Ríos,Balancán,U-NET,Maíz grano,1737.92
+2019,Otoño-Invierno,Edgardo,Zona Ríos,Balancán,U-NET,Maíz grano,2314.75
+2020,Otoño-Invierno,Edgardo,Zona Ríos,Balancán,U-NET,Maíz grano,1775.40
+2021,Otoño-Invierno,Edgardo,Zona Ríos,Balancán,U-NET,Maíz grano,1758.00
+2022,Otoño-Invierno,Edgardo,Zona Ríos,Balancán,U-NET,Maíz grano,1432.90
+2018,Otoño-Invierno,Edgardo,Zona Ríos,Balancán,U-NET,Sorgo grano,4019.80
+2019,Otoño-Invierno,Edgardo,Zona Ríos,Balancán,U-NET,Sorgo grano,3769.50
+2020,Otoño-Invierno,Edgardo,Zona Ríos,Balancán,U-NET,Sorgo grano,3641.30
+2021,Otoño-Invierno,Edgardo,Zona Ríos,Balancán,U-NET,Sorgo grano,2915.50
+2022,Otoño-Invierno,Edgardo,Zona Ríos,Balancán,U-NET,Sorgo grano,3068.30
+2017,Primavera-Verano,SIAP,Zona Ríos,Balancán,SIAP,Maíz grano,10267.00
+2018,Primavera-Verano,SIAP,Zona Ríos,Balancán,SIAP,Maíz grano,11654.00
+2019,Primavera-Verano,SIAP,Zona Ríos,Balancán,SIAP,Maíz grano,11357.00
+2020,Primavera-Verano,SIAP,Zona Ríos,Balancán,SIAP,Maíz grano,11809.00
+2021,Primavera-Verano,SIAP,Zona Ríos,Balancán,SIAP,Maíz grano,11906.00
+2022,Primavera-Verano,SIAP,Zona Ríos,Balancán,SIAP,Maíz grano,11575.00
+2017,Primavera-Verano,SIAP,Zona Ríos,Tenosique,SIAP,Maíz grano,2860.00
+2018,Primavera-Verano,SIAP,Zona Ríos,Tenosique,SIAP,Maíz grano,4262.00
+2019,Primavera-Verano,SIAP,Zona Ríos,Tenosique,SIAP,Maíz grano,4305.00
+2020,Primavera-Verano,SIAP,Zona Ríos,Tenosique,SIAP,Maíz grano,4350.00
+2021,Primavera-Verano,SIAP,Zona Ríos,Tenosique,SIAP,Maíz grano,4455.00
+2022,Primavera-Verano,SIAP,Zona Ríos,Tenosique,SIAP,Maíz grano,4238.00
+2017,Primavera-Verano,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Maíz grano,1045.00
+2018,Primavera-Verano,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Maíz grano,1017.00
+2019,Primavera-Verano,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Maíz grano,1175.00
+2020,Primavera-Verano,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Maíz grano,1180.00
+2021,Primavera-Verano,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Maíz grano,1189.00
+2022,Primavera-Verano,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Maíz grano,1132.00
+2017,Otoño-Invierno,SIAP,Zona Ríos,Balancán,SIAP,Maíz grano,7206.00
+2018,Otoño-Invierno,SIAP,Zona Ríos,Balancán,SIAP,Maíz grano,7577.00
+2019,Otoño-Invierno,SIAP,Zona Ríos,Balancán,SIAP,Maíz grano,7926.00
+2020,Otoño-Invierno,SIAP,Zona Ríos,Balancán,SIAP,Maíz grano,8086.00
+2021,Otoño-Invierno,SIAP,Zona Ríos,Balancán,SIAP,Maíz grano,8262.00
+2022,Otoño-Invierno,SIAP,Zona Ríos,Balancán,SIAP,Maíz grano,8240.00
+2017,Otoño-Invierno,SIAP,Zona Ríos,Tenosique,SIAP,Maíz grano,2257.00
+2018,Otoño-Invierno,SIAP,Zona Ríos,Tenosique,SIAP,Maíz grano,2146.00
+2019,Otoño-Invierno,SIAP,Zona Ríos,Tenosique,SIAP,Maíz grano,1738.00
+2020,Otoño-Invierno,SIAP,Zona Ríos,Tenosique,SIAP,Maíz grano,2485.00
+2021,Otoño-Invierno,SIAP,Zona Ríos,Tenosique,SIAP,Maíz grano,2705.00
+2022,Otoño-Invierno,SIAP,Zona Ríos,Tenosique,SIAP,Maíz grano,2695.00
+2017,Otoño-Invierno,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Maíz grano,1130.00
+2018,Otoño-Invierno,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Maíz grano,1340.00
+2019,Otoño-Invierno,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Maíz grano,1370.00
+2020,Otoño-Invierno,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Maíz grano,1425.00
+2021,Otoño-Invierno,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Maíz grano,1550.00
+2022,Otoño-Invierno,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Maíz grano,1543.00
+2017,Primavera-Verano,SIAP,Zona Ríos,Balancán,SIAP,Sorgo grano,2538.00
+2018,Primavera-Verano,SIAP,Zona Ríos,Balancán,SIAP,Sorgo grano,107.00
+2019,Primavera-Verano,SIAP,Zona Ríos,Balancán,SIAP,Sorgo grano,1606.00
+2020,Primavera-Verano,SIAP,Zona Ríos,Balancán,SIAP,Sorgo grano,65.00
+2021,Primavera-Verano,SIAP,Zona Ríos,Balancán,SIAP,Sorgo grano,70.00
+2022,Primavera-Verano,SIAP,Zona Ríos,Balancán,SIAP,Sorgo grano,0.00
+2017,Primavera-Verano,SIAP,Zona Ríos,Tenosique,SIAP,Sorgo grano,0.00
+2018,Primavera-Verano,SIAP,Zona Ríos,Tenosique,SIAP,Sorgo grano,0.00
+2019,Primavera-Verano,SIAP,Zona Ríos,Tenosique,SIAP,Sorgo grano,120.00
+2020,Primavera-Verano,SIAP,Zona Ríos,Tenosique,SIAP,Sorgo grano,122.00
+2021,Primavera-Verano,SIAP,Zona Ríos,Tenosique,SIAP,Sorgo grano,125.00
+2022,Primavera-Verano,SIAP,Zona Ríos,Tenosique,SIAP,Sorgo grano,90.00
+2017,Primavera-Verano,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Sorgo grano,298.00
+2018,Primavera-Verano,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Sorgo grano,28.00
+2019,Primavera-Verano,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Sorgo grano,50.00
+2020,Primavera-Verano,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Sorgo grano,76.00
+2021,Primavera-Verano,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Sorgo grano,80.00
+2022,Primavera-Verano,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Sorgo grano,0.00
+2017,Otoño-Invierno,SIAP,Zona Ríos,Balancán,SIAP,Sorgo grano,3950.00
+2018,Otoño-Invierno,SIAP,Zona Ríos,Balancán,SIAP,Sorgo grano,4025.00
+2019,Otoño-Invierno,SIAP,Zona Ríos,Balancán,SIAP,Sorgo grano,3872.00
+2020,Otoño-Invierno,SIAP,Zona Ríos,Balancán,SIAP,Sorgo grano,3972.00
+2021,Otoño-Invierno,SIAP,Zona Ríos,Balancán,SIAP,Sorgo grano,4005.00
+2022,Otoño-Invierno,SIAP,Zona Ríos,Balancán,SIAP,Sorgo grano,3481.00
+2017,Otoño-Invierno,SIAP,Zona Ríos,Tenosique,SIAP,Sorgo grano,493.00
+2018,Otoño-Invierno,SIAP,Zona Ríos,Tenosique,SIAP,Sorgo grano,339.00
+2019,Otoño-Invierno,SIAP,Zona Ríos,Tenosique,SIAP,Sorgo grano,262.00
+2020,Otoño-Invierno,SIAP,Zona Ríos,Tenosique,SIAP,Sorgo grano,412.00
+2021,Otoño-Invierno,SIAP,Zona Ríos,Tenosique,SIAP,Sorgo grano,208.00
+2022,Otoño-Invierno,SIAP,Zona Ríos,Tenosique,SIAP,Sorgo grano,203.00
+2017,Otoño-Invierno,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Sorgo grano,385.00
+2018,Otoño-Invierno,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Sorgo grano,323.00
+2019,Otoño-Invierno,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Sorgo grano,95.00
+2020,Otoño-Invierno,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Sorgo grano,115.00
+2021,Otoño-Invierno,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Sorgo grano,52.00
+2022,Otoño-Invierno,SIAP,Zona Ríos,Emiliano Zapata,SIAP,Sorgo grano,0.00

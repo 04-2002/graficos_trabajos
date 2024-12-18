@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de Gráfico de Cultivos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nouislider@15.6.0/dist/nouislider.min.css" />
+</head>
+<body>
+    <header>
+        <h1>Generador de Gráfico de Cultivos</h1>
+    </header>
+
+    <div class="contenedor-principal">
+        <div class="contenedor-contenido">
+            <div class="contenedor-filtros">
+                <h2>Filtros de Selección</h2>
+                <div class="contenedor-selectores">
+                    <form id="formulario-filtros">
+                        <label for="años">Rango de Año:</label>
+                        <div id="contenedor-slider">
+                            <div id="slider"></div>
+                            <p id="rango-años">Años: <span id="año-minimo"></span> - <span id="año-maximo"></span></p>
+                        </div>
+
+                        <label for="temporada">Temporada:</label>
+                        <select id="temporada" name="temporada">
+                            <option value="Primavera-Verano">Primavera-Verano</option>
+                            <option value="Otoño-Invierno">Otoño-Invierno</option>
+                        </select>
+
+                        <label for="area-estudio">Área de Estudio:</label>
+                        <select id="area-estudio" name="area-estudio">
+                            <option value="Balancán">Balancán</option>
+                            <option value="Tenosique">Tenosique</option>
+                            <option value="Emiliano Zapata">Emiliano Zapata</option>
+                        </select>
+
+                        <label for="fuente">Fuente:</label>
+                        <select id="fuente" name="fuente">
+                            <option value="Todos">Todos</option>
+                            {% for fuente in fuentes %}
+                            <option value="{{ fuente }}">{{ fuente }}</option>
+                            {% endfor %}
+                        </select>
+
+                        <label for="modelo">Modelo:</label>
+                        <select id="modelo" name="modelo">
+                            <option value="Todos">Todos</option>
+                            {% for modelo in modelos %}
+                            <option value="{{ modelo }}">{{ modelo }}</option>
+                            {% endfor %}
+                        </select>
+
+                        <label for="cultivo">Cultivo:</label>
+                        <select id="cultivo" name="cultivo">
+                            {% for cultivo in cultivos %}
+                            <option value="{{ cultivo }}">{{ cultivo }}</option>
+                            {% endfor %}
+                        </select>
+                    </form>
+                </div>
+
+                <div class="contenedor-boton">
+                    <button type="button" id="boton-generar-grafico">Generar Gráfico</button>
+                </div>
+                <div id="mensaje-error" style="display: none; color: red"></div>
+            </div>
+
+            <div class="contenedor-grafico">
+                <h2>Gráfico de Cultivos </h2>
+                <div id="spinner-cargando" class="spinner-cargando"></div>
+                <div id="contenedor-grafico"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/nouislider@15.6.0/dist/nouislider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Actualización de los filtros
+            $('#boton-generar-grafico').click(function (event) {
+                event.preventDefault();
+
+                var añoMin = $('#año-minimo').text();
+                var añoMax = $('#año-maximo').text();
+                var temporada = $('#temporada').val();
+                var areaEstudio = $('#area-estudio').val();
+                var fuente = $('#fuente').val();  // Obtener valor de fuente
+                var modelo = $('#modelo').val();
+                var cultivo = $('#cultivo').val();
+
+                if (areaEstudio === "Todos" && cultivo === "Todos") {
+                    $('#mensaje-error').text('No se puede usar "Todos" con "Todos".').show();
+                    return;
+                }
+
+                if (areaEstudio === "" && cultivo === "") {
+                    $('#mensaje-error').text('Por favor, seleccione al menos un área de estudio o un cultivo.').show();
+                    return;
+                }
+
+                $('#spinner-cargando').show();
+                $('#contenedor-grafico').empty();
+                $('#mensaje-error').hide();
+
+                $.get('/generar_grafico', {
+                    año_min: añoMin,
+                    año_max: añoMax,
+                    temporada: temporada,
+                    area_estudio: areaEstudio,
+                    fuente: fuente,  // Enviar fuente al backend
+                    modelo: modelo,
+                    cultivo: cultivo
+                })
+                    .done(function (data) {
+                        $('#spinner-cargando').hide();
+                        if (data.success) {
+                            $('#contenedor-grafico').html(data.graph_html);
+                        } else {
+                            $('#contenedor-grafico').html('<p>No hay datos disponibles para los filtros seleccionados.</p>');
+                        }
+                    })
+                    .fail(function () {
+                        $('#spinner-cargando').hide();
+                        $('#contenedor-grafico').html('<p>Error al cargar el gráfico.</p>');
+                    });
+            });
+
+            var años = {{ años | tojson }};
+            var minYear = Math.min(...años);
+            var maxYear = Math.max(...años);
+
+            var slider = document.getElementById('slider');
+            noUiSlider.create(slider, {
+                start: [minYear, maxYear],
+                connect: true,
+                range: {
+                    'min': minYear,
+                    'max': maxYear
+                },
+                step: 1,
+                format: {
+                    to: function (value) {
+                        return Math.round(value);
+                    },
+                    from: function (value) {
+                        return Math.round(value);
+                    }
+                }
+            });
+
+            slider.noUiSlider.on('update', function (values) {
+                $('#año-minimo').text(values[0]);
+                $('#año-maximo').text(values[1]);
+            });
+        });
+    </script>
+</body>
+</html>
