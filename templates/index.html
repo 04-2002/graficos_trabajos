@@ -69,7 +69,7 @@
             </div>
 
             <div class="contenedor-grafico">
-                <h2>Gráfico de Cultivos </h2>
+                <h2>Gráfico de Cultivos</h2>
                 <div id="spinner-cargando" class="spinner-cargando"></div>
                 <div id="contenedor-grafico"></div>
             </div>
@@ -78,9 +78,9 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/nouislider@15.6.0/dist/nouislider.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script>
         $(document).ready(function () {
-            // Actualización de los filtros
             $('#boton-generar-grafico').click(function (event) {
                 event.preventDefault();
 
@@ -88,7 +88,7 @@
                 var añoMax = $('#año-maximo').text();
                 var temporada = $('#temporada').val();
                 var areaEstudio = $('#area-estudio').val();
-                var fuente = $('#fuente').val();  // Obtener valor de fuente
+                var fuente = $('#fuente').val();
                 var modelo = $('#modelo').val();
                 var cultivo = $('#cultivo').val();
 
@@ -111,7 +111,7 @@
                     año_max: añoMax,
                     temporada: temporada,
                     area_estudio: areaEstudio,
-                    fuente: fuente,  // Enviar fuente al backend
+                    fuente: fuente,
                     modelo: modelo,
                     cultivo: cultivo
                 })
@@ -119,6 +119,31 @@
                         $('#spinner-cargando').hide();
                         if (data.success) {
                             $('#contenedor-grafico').html(data.graph_html);
+
+                            // Configuración del gráfico
+                            var gd = document.getElementById('contenedor-grafico').getElementsByClassName('js-plotly-plot')[0];
+                            var config = {
+                                displayModeBar: true,
+                                modeBarButtonsToAdd: [
+                                    {
+                                        name: 'downloadPNG',
+                                        icon: Plotly.Icons.camera,
+                                        click: function (gd) {
+                                            Plotly.downloadImage(gd, { format: 'png', width: 800, height: 500 });
+                                        }
+                                    },
+                                    {
+                                        name: 'downloadSVG',
+                                        icon: Plotly.Icons.camera,
+                                        click: function (gd) {
+                                            Plotly.downloadImage(gd, { format: 'svg', width: 800, height: 500 });
+                                        }
+                                    }
+                                ]
+                            };
+
+                            // Vuelve a configurar el gráfico para agregar los botones de descarga
+                            Plotly.relayout(gd, config);
                         } else {
                             $('#contenedor-grafico').html('<p>No hay datos disponibles para los filtros seleccionados.</p>');
                         }

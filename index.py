@@ -77,6 +77,12 @@ def generar_grafico():
         elif cultivos:
             filtered_df = filtered_df[filtered_df["cultivo"].isin(cultivos)]
 
+        # Formatear las columnas para el hover
+        filtered_df["fuente"] = filtered_df["fuente"].str.title()
+        filtered_df["area_de_estudio"] = filtered_df["area_de_estudio"].str.title()
+        filtered_df["modelo"] = filtered_df["modelo"].str.capitalize()
+        filtered_df["cultivo"] = filtered_df["cultivo"].str.title()
+
         # Crear una columna única para identificar la combinación de fuente, área de estudio y modelo
         filtered_df["fuente_area_modelo"] = filtered_df["fuente"] + " - " + filtered_df["area_de_estudio"] + " - " + filtered_df["modelo"]
 
@@ -112,12 +118,7 @@ def generar_grafico():
                 "hectareas": "Hectáreas",
                 "fuente_area_modelo": "Fuente | Área | Modelo",  # Etiqueta combinada de fuente, área y modelo
             },
-            hover_data={
-                "temporada": True,  # Mostrar temporada en el hover
-                "area_de_estudio": True,  # Mostrar área de estudio en el hover
-                "modelo": True,  # Mostrar modelo en el hover
-                "cultivo": True,  # Mostrar cultivo en el hover
-            }
+
         )
 
         # Crear subtítulo con los filtros separados por "|"
